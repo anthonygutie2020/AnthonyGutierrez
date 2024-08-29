@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic vs Non-Traffic Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .image-box {
+            margin: 10px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            background-color: #fff;
+        }
+        .image-box img {
+            width: 100%;
+            height: auto;
+        }
+        .image-box p {
+            text-align: center;
+            padding: 5px;
+            margin: 0;
+            background-color: #eee;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Traffic vs Non-Traffic Images</h1>
+    <div class="container">
+        <!-- Traffic Images -->
+        <div class="image-box">
+            <img src="path/to/traffic1.jpg" alt="Traffic Image 1">
+            <p>Traffic Image 1</p>
+        </div>
+        <div class="image-box">
+            <img src="path/to/traffic2.jpg" alt="Traffic Image 2">
+            <p>Traffic Image 2</p>
+        </div>
+        <!-- Add more traffic images here -->
+
+        <!-- Non-Traffic Images -->
+        <div class="image-box">
+            <img src="path/to/non-traffic1.jpg" alt="Non-Traffic Image 1">
+            <p>Non-Traffic Image 1</p>
+        </div>
+        <div class="image-box">
+            <img src="path/to/non-traffic2.jpg" alt="Non-Traffic Image 2">
+            <p>Non-Traffic Image 2</p>
+        </div>
+        <!-- Add more non-traffic images here -->
+    </div>
+</body>
+</html>
